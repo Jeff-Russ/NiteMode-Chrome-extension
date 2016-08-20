@@ -1,0 +1,21 @@
+{
+   "background": {
+      "scripts": [ "nitemode.js" ]
+   },
+   "options_page": "lib/options.html",
+   "description": "Darken the web for nightime browsing that's easier on the eyes",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "48": "icons/48.png"
+   },
+   "manifest_version": 2,
+   "name": "NiteMode",
+   "page_action": {
+      "default_icon": "icons/disabled.png",
+      "default_title": "NiteMode"
+   },
+   "permissions": [ "activeTab", "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.9.3"
+}
